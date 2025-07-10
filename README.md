@@ -32,7 +32,6 @@ A web application that allows final year students of **Bayero University Kano (B
 
 ---
 ## 🙋‍♂️ Author
-
 **Muhammed Awwal Musa**
 Computer Science, B.U.K — Final Year Project
 GitHub: [@AhmNice](https://github.com/AhmNice)
