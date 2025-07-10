@@ -1,19 +1,17 @@
-
-````
 # 🎓 FYB File Upload System - B.U.K Faculty of Computing
 
-A web application that allows final year students of Bayero University Kano (B.U.K), Faculty of Computing, to upload their profile pictures and names for the final year book (FYB). The system stores user records along with their uploaded images securely in the cloud.
+A web application that allows final year students of **Bayero University Kano (B.U.K), Faculty of Computing**, to upload their profile pictures, full names, and nicknames for the final year book (FYB). All user data is securely stored in MongoDB and uploaded images are hosted on Cloudinary.
 
 ---
 
 ## 🔧 Features
 
 - 📤 Upload profile picture with full name and nickname
-- ☁️ Secure image upload to Cloudinary
-- ✅ Validation for missing fields or images
-- 🧾 Stores and saves student data to MongoDB
-- 🔐 Secure backend using environment variables
-- 🌐 React frontend with smooth animations and form handling
+- ☁️ Cloud-based image storage via Cloudinary
+- ✅ Validation for required fields and image files
+- 🧾 Stores student data (name, nickname, photo URL) in MongoDB
+- 🔐 Secure backend with environment variables
+- 🌐 React frontend with smooth UI and animations
 
 ---
 
@@ -21,15 +19,16 @@ A web application that allows final year students of Bayero University Kano (B.U
 
 ### Frontend
 - React.js
-- TailwindCSS
+- Tailwind CSS
 - Framer Motion
 
 ### Backend
 - Node.js
 - Express.js
 - MongoDB + Mongoose
-- Cloudinary (image hosting)
 - Multer (file handling)
+- Cloudinary (image hosting)
+- dotenv (for environment configs)
 
 ---
 ## 🙋‍♂️ Author
@@ -38,9 +37,3 @@ A web application that allows final year students of Bayero University Kano (B.U
 Computer Science, B.U.K — Final Year Project
 GitHub: [@AhmNice](https://github.com/AhmNice)
 
----
-
-## 📜 License
-
-This project is for educational purposes under the MIT License.
-```
