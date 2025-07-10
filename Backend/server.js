@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: process.env.CLIENT_URL,
+  origin: 'https://fyb-photo-uploader.vercel.app',
   credentials: true
 }));
 app.use(express.json());
