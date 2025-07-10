@@ -1,12 +1,49 @@
-# React + Vite
+Here's a complete and clear `README.md` file tailored for your **FYB File Upload** project for **Bayero University Kano (B.U.K), Faculty of Computing**:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+````markdown
+# 🎓 FYB File Upload System - B.U.K Faculty of Computing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A web application that allows final year students of Bayero University Kano (B.U.K), Faculty of Computing, to upload their profile pictures and names for the final year book (FYB). The system stores user records along with their uploaded images securely in the cloud.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Features
+
+- 📤 Upload profile picture with full name and nickname
+- ☁️ Secure image upload to Cloudinary
+- ✅ Validation for missing fields or images
+- 🧾 Stores and saves student data to MongoDB
+- 🔐 Secure backend using environment variables
+- 🌐 React frontend with smooth animations and form handling
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- TailwindCSS
+- Framer Motion
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Cloudinary (image hosting)
+- Multer (file handling)
+
+---
+## 🙋‍♂️ Author
+
+**Muhammed Awwal Musa**
+Computer Science, B.U.K — Final Year Project
+GitHub: [@AhmNice](https://github.com/AhmNice)
+
+---
+
+## 📜 License
+
+This project is for educational purposes under the MIT License.
+```
