@@ -33,7 +33,6 @@ export const fileUpload = async (req, res) => {
     const result = await cloudinary.uploader.upload(req.file.path, {
       folder: 'FYB/uploads',
       public_id: `${Date.now()}-${safeName}_${safeNickname}`,
-      transformation: [{ width: 800, height: 800, crop: 'limit' }]
     });
 
     // ✅ Delete local file
