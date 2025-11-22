@@ -31,7 +31,7 @@ export const fileUpload = async (req, res) => {
     });
 
     const result = await cloudinary.uploader.upload(req.file.path, {
-      folder: 'FYB/uploads',
+      folder: 'FYB/new-uploads',
       public_id: `${Date.now()}-${safeName}_${safeNickname}`,
     });
 
